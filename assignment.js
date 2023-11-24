@@ -1,29 +1,29 @@
 let x = 10;
 const y = 20;
-x = y + z;
+z = y + x;
 
 let greeting = "Hello";
-if (greeting === "Hello") {
+if (greeting == "Hello") {
   console.log("Hi!");
 } else {
   console.log("Goodbye!");
 }
 
-let num = "10";
+let num = 10;
 let doubled = num * 2;
 console.log(doubled);
 
 let colors = ["red", "green", "blue"];
-let favoriteColor = colors[3];
+let favoriteColor = colors[2];
 console.log(favoriteColor);
-
+{
 function add(x, y) {
   return x + y;
 }
 
-let result = add(5);
+let result = add(2,4);
 console.log(result);
-
+}
 
 let person = {
   firstName: "John",
@@ -34,14 +34,14 @@ console.log(person.age);
 
 let numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i <= numbers.length; i++) {
-  console.log(numbers[i]);
+  console.log(i);
 }
 
 function multiply(x, y) {
   return x * y;
 }
 
-let product = multiply(3, "2");
+let product = multiply(3, 2);
 console.log("Product:", product);
 
 function greet(name) {
